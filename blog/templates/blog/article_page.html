@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article Page</title>
+</head>
+<body>
+<h1>{{ article.title }}</h1>
+<br/>
+<h3>{{ article.content }}</h3>
+<br/><br/>
+<a href="{% url 'blog:edit_page' article.id %}"> Edit Article</a>
+<br/>
+<a href="{% url 'blog:delete_article' article.id%}">Delete</a>
+<br/>
+<a href="{% url 'blog:index' %}">Back to Home</a>
+</body>
+</html>
