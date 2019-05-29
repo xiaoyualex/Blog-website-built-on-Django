@@ -6,7 +6,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 
 # SECURITY WARNING: update this when you have the production host
-ALLOWED_HOSTS = ['mysimpleblog.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['myblog-env.3giasrpd9x.us-east-1.elasticbeanstalk.com']
 
 # configure the database
 if 'RDS_HOSTNAME' in os.environ:
