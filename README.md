@@ -2,7 +2,7 @@
 This project is to design a simple blog website based on Django framework.
 
 ### Landing page
-http://mysimpleblog.us-east-1.elasticbeanstalk.com/blog/index
+http://myblog-env.3giasrpd9x.us-east-1.elasticbeanstalk.com/blog/index
 
 ### Implementation
 Edit article,
